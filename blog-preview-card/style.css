@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:wght@600;800&display=swap');
+:root{
+    --White: hsl(0, 0%, 100%);
+    --Grey: hsl(0, 0%, 50%);
+    --Black: hsl(0, 0%, 7%);
+    --Yellow: hsl(47, 88%, 63%);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    min-height: 100vh;
+    max-width: 100%;
+    font-family: 'Figtree', sans-serif;
+    background-color: var(--Yellow);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    width: 385px;
+    background-color: #fff;
+    padding-left: 40px;
+    padding-bottom: 20px;
+    padding-right: 40px;
+    padding-top: 20px;
+    border-radius: 15px;
+    border: 2px solid black;
+    box-shadow: 15px 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.box{
+    display: grid;
+    justify-items: start;
+    gap: 15px;
+}
+
+.container .main-img{
+    width: fit-content;
+    border-radius: 10px;
+}
+
+.little-box{
+    height: 33px;
+    width: 100px;
+    background-color: var(--Yellow);
+    text-align: center;
+    border-radius: 5px;
+    padding-top: 7px;
+}
+
+.lit-headline{
+    font-weight: 600;
+    color: rgb(18, 17, 17);
+}
+
+button{
+    font-weight: 800;
+    border: none;
+    background-color: var(--White);
+    font-size: 20px;
+    cursor: pointer;
+}
+
+button:hover{
+    color: var(--Yellow);
+}
+
+p{
+    font-size: 16px;
+}
+
+.text{
+    color: var(--Grey);
+}
+
+.creator{
+    width: 200px;
+    height: 33px;
+    padding-top: 7px;
+    display: flex;
+    gap: 8px;
+}
+
+.creator-name2{
+    margin: 3px;
+}
